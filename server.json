@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/quiver",
   "title": "Quiver",
   "description": "Quiver Quantitative MCP — alternative-data on public companies (quiverquant.com)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/quiver",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-quiver",
