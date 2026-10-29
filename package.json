@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-quiver",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Quiver Quantitative MCP — alternative-data on public companies (quiverquant.com)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-quiver": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "quiver"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-quiver.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/quiver",
   "pipeworx": {
-    "sourceHash": "v1-e04611b938b4170ee83cb43decea1dea928d78e93f394196da2a095412d99e30",
-    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
+    "mode": "gateway",
+    "slug": "quiver",
+    "gatewaySlug": "quiver",
+    "sourceHash": "v1-dd540ade23e6db1b0a919c1782ecf7d4d19c86a37f34e62bd0c53e76038fad36",
+    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
   }
 }
