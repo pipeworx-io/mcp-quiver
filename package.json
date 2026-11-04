@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-quiver",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Quiver Quantitative MCP — alternative-data on public companies (quiverquant.com)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "quiver",
     "gatewaySlug": "quiver",
-    "sourceHash": "v1-dd540ade23e6db1b0a919c1782ecf7d4d19c86a37f34e62bd0c53e76038fad36",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-66f41e35f1304618f111078996cf33c8720c4b9705de69505ed1a6dd420f6756",
+    "sourceCommit": "db27387ed3ef7ec4805d465f7964a7f65f937006"
   }
 }
